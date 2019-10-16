@@ -2,12 +2,12 @@ const transactions = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TRANSACTION':
       return [
-        ...state,
         {
           id: action.id,
           name: action.name,
           amount: action.amount
-        }
+        },
+        ...state
       ]
     case 'DELETE_TRANSACTION':
       return state.filter((transaction) => {
