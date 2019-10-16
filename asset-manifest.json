@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/transactions-crud/static/css/main.38430af3.chunk.css",
-    "main.js": "/transactions-crud/static/js/main.72cb35e7.chunk.js",
-    "main.js.map": "/transactions-crud/static/js/main.72cb35e7.chunk.js.map",
+    "main.js": "/transactions-crud/static/js/main.8a88eb01.chunk.js",
+    "main.js.map": "/transactions-crud/static/js/main.8a88eb01.chunk.js.map",
     "runtime-main.js": "/transactions-crud/static/js/runtime-main.9a9fdc7e.js",
     "runtime-main.js.map": "/transactions-crud/static/js/runtime-main.9a9fdc7e.js.map",
     "static/js/2.c020fb1d.chunk.js": "/transactions-crud/static/js/2.c020fb1d.chunk.js",
     "static/js/2.c020fb1d.chunk.js.map": "/transactions-crud/static/js/2.c020fb1d.chunk.js.map",
     "index.html": "/transactions-crud/index.html",
-    "precache-manifest.b5fdff23821d6e782a522e4d9d891423.js": "/transactions-crud/precache-manifest.b5fdff23821d6e782a522e4d9d891423.js",
+    "precache-manifest.8f65a513ccd922adde6cf6e0a4eff13c.js": "/transactions-crud/precache-manifest.8f65a513ccd922adde6cf6e0a4eff13c.js",
     "service-worker.js": "/transactions-crud/service-worker.js",
     "static/css/main.38430af3.chunk.css.map": "/transactions-crud/static/css/main.38430af3.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.9a9fdc7e.js",
     "static/js/2.c020fb1d.chunk.js",
     "static/css/main.38430af3.chunk.css",
-    "static/js/main.72cb35e7.chunk.js"
+    "static/js/main.8a88eb01.chunk.js"
   ]
 }

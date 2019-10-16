@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8de54b5fcee0473b2faf2853f977db0e",
+    "revision": "6373b8faa0cf42c0d428fc24dd47afb8",
     "url": "/transactions-crud/index.html"
   },
   {
-    "revision": "7ae67fd0f48deec8d074",
+    "revision": "cf4ed3ce16ff83aa4c85",
     "url": "/transactions-crud/static/css/main.38430af3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/transactions-crud/static/js/2.c020fb1d.chunk.js"
   },
   {
-    "revision": "7ae67fd0f48deec8d074",
-    "url": "/transactions-crud/static/js/main.72cb35e7.chunk.js"
+    "revision": "cf4ed3ce16ff83aa4c85",
+    "url": "/transactions-crud/static/js/main.8a88eb01.chunk.js"
   },
   {
     "revision": "5af45cc4ce09b3c52e77",
