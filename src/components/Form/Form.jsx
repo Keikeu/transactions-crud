@@ -77,7 +77,7 @@ class Form extends React.Component {
                   size="large"
                   type="text"
                   value={this.state.name}
-                  placeholder="asdasrasdas"
+                  placeholder=""
                   onChange={this.handleChange}
                   error={this.state.nameError}
                />
