@@ -1,0 +1,136 @@
+.Input {
+   display: inline-block;
+}
+
+.Input__Title {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+   text-transform: uppercase;
+   margin-top: 12px;
+   color: rgba(0, 0, 0, 0.4);
+}
+
+
+.Input__Box--outlined {
+   outline: none;
+   box-sizing: border-box;
+   padding: 12px;
+   border: 2px solid rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   width: calc(100% - 56px - 24px); /* full width minus adornment and right margin */
+   margin: 4px 0 8px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: rgba(0, 0, 0, 0.87);
+}
+
+.Input__Box--outlined:focus {
+   border: 2px solid #5366fd;
+}
+
+.Input__Box--outlined:focus + .Input__Adornment--outlined {
+   border: 2px solid #5366fd;
+   border-left: none;
+}
+
+::placeholder {
+   color: rgba(0, 0, 0, 0.3);
+}
+
+.Input__Adornment--outlined {
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 12px;
+   border: 2px solid rgba(0, 0, 0, 0.2);
+   border-left: none;
+   border-radius: 0 5px 5px 0;
+   margin: 4px 0 8px;
+   font-size: 16px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: rgba(0, 0, 0, 0.3);
+}
+
+.Input.large {
+   flex-grow: 4;
+}
+.Input.large .Input__Box--outlined {
+   width: calc(100% - 24px);
+}
+
+.Input.medium {
+   min-width: 148px;
+}
+
+.Input.small {
+   flex-grow: 1;
+   flex-basis: 20%;
+   max-width: 240px;
+   min-width: 116px;
+}
+.Input.small .Input__Box--outlined {
+   min-width: 60px;
+   border-right: none;
+   border-radius: 5px 0 0 5px;
+}
+
+
+.Input__Box--filled {
+   display: inline-block;
+   outline: none;
+   box-sizing: border-box;
+   width: 90px;
+   padding: 10px 12px;
+   border: none;
+   border-radius: 10px 0 0 10px;
+   background: #3f50d7;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 37px;
+   text-transform: capitalize;
+   color: #ffffff;
+}
+
+.Input__Box--filled:focus,
+.Input__Box--filled:focus + .Input__Adornment--filled {
+   background: #2a3cca;
+}
+
+.Input__Adornment--filled {
+   margin: 0;
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 10px 12px 10px 0;
+   border-radius: 0 10px 10px 0;
+   background: #3f50d7;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 37px;
+   text-transform: capitalize;
+   color: #ffffff;
+}
+
+
+.Input__Error {
+   position: absolute;
+   margin-top: -4px;
+   margin-left: 2px;
+   color: #e32d14;
+   font-size: 12px;
+   font-weight: 500;
+}
+
+
+ /* remove increment/decrement arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}

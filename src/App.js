@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CurrencyConverterWrapper from './containers/CurrencyConverterWrapper';
+import FormWrapper from './containers/FormWrapper';
+import ListWrapper from './containers/ListWrapper';
+import MaximumWrapper from './containers/MaximumWrapper';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+const App = () => (
+   <div className="App">
+      <header className="Header">
+         <div>
+            <h1 className="Header__Title">Transactions Management</h1>
+            <small className="Header__Subtitle">This is a placeholder text</small>
+         </div>
+         <CurrencyConverterWrapper/>
       </header>
-    </div>
-  );
-}
+
+      <FormWrapper/>
+
+      <ListWrapper/>
+
+      <MaximumWrapper/>
+
+   </div>
+);
 
 export default App;

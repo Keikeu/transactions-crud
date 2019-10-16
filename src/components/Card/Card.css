@@ -1,0 +1,47 @@
+.Card {
+   margin: auto;
+   box-sizing: border-box;
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   text-align: left;
+}
+
+.Card.block {
+   overflow-x: auto;
+}
+
+.Card.block,
+.Card.flex {
+   width: 70%;
+}
+
+.Card.flex {
+   display: flex;
+   margin-top: -70px;
+   padding: 4px 28px 24px;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: flex-end;
+   flex-wrap: wrap;
+}
+
+.Card.inline-block {
+   display: inline-block;
+   padding: 16px 18px 21px;
+   margin: 40px 0;
+}
+
+@media (max-width: 992px) {
+   .Card.block,
+   .Card.flex {
+      width: 90%;
+   }
+}
+
+@media (max-width: 768px) {
+   .Card.block,
+   .Card.flex {
+      width: 95%;
+   }
+}

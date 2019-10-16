@@ -1,0 +1,24 @@
+.Max__Title {
+   margin: 0 0 10px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   text-transform: uppercase;
+   color: rgba(0, 0, 0, 0.4);
+}
+
+.Max__Amount--EUR {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+   text-transform: capitalize;
+   color: #5366FD;
+}
+
+.Max__Amount--PLN {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 23px;
+   text-transform: capitalize;
+   color: rgba(0, 0, 0, 0.6);
+}
